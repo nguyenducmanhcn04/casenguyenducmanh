@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.banner {
+    background-image: url('https://example.com/banner.jpg'); 
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.navbar-nav a, .navbar-brand {
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover, .navbar-brand:hover {
+    color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Thêm kiểu cho biểu tượng */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+.skill:hover i {
+    color: #007bff;
+}
+
+
+.container img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+/* Thêm kiểu cho biểu tượng mạng xã hội */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+
+
