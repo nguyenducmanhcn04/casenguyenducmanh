@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* begin banner */
+.form-control {
+    border-radius: inherit;
+}
+button.btn.dropdown-toggle {
+    border: 1px solid #ccc;
+    margin-left: 46px;
+    border-right: none;
+    border-radius: none;
+    border-radius: inherit;
+}
+/* begin nav */
+div#navbarSupportedContent {
+    font-size: 14px;
+    
+}
+a.btn.navbar-brand {
+    font-size: 14px;
+    margin-left: 25px;
+
+}
+/* begin banner */
+.justify-content-between {
+    justify-content: space-between!important;
+    margin-top: 25px;
+    background: #f0f3f2;
+    padding: 15px;
+    border-radius: 20px;
+}
+button.btn.btn-dark.col-3 {
+    width: 230px;
+    height: 41px;
+    margin-top: 40px;
+}
+.col-8.conten-banner {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+/* begin FruitsVegetables */
+.d-flex.justify-content-between.align-items-center {
+    padding: 0;
+}
+
+.row.align-items-center {
+    margin-top: 100px;
+}
+.mb-5 {
+    margin-top: 30px;
+}
+footer.footer {
+    background: #f2f3f0;
+    margin-top: 111px;
+}
+.row.g-4.py-4 {
+    font-size: 12px;
+}

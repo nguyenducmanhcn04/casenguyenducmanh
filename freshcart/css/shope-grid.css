@@ -1,0 +1,27 @@
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+}
+
+.zoom:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-img-top {
+    transition: transform 0.3s ease-in-out;
+}
+/* footer */
+.row.align-items-center {
+    margin-top: 100px;
+}
+.mb-5 {
+    margin-top: 30px;
+}
+footer.footer {
+    background: #f2f3f0;
+    margin-top: 111px;
+}
+.row.g-4.py-4 {
+    font-size: 12px;
+}
